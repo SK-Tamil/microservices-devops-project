@@ -1,0 +1,40 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Microservices Admin Panel</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <aside class="sidebar">
+    <h2>DevOps App</h2>
+    <p class="sidebar-subtitle">Microservices Platform</p>
+
+    <nav>
+      <button class="nav-btn active" data-page="dashboard">Dashboard</button>
+      <button class="nav-btn" data-page="users">Users</button>
+      <button class="nav-btn" data-page="products">Products</button>
+      <button class="nav-btn" data-page="orders">Orders</button>
+    </nav>
+  </aside>
+
+  <main class="main-content">
+    <header class="topbar">
+      <div>
+        <h1 id="page-title">Dashboard</h1>
+        <p>Microservices Management Console</p>
+      </div>
+      <span class="system-badge">System Online</span>
+    </header>
+
+    <section id="page-content">
+      <p>Loading dashboard...</p>
+    </section>
+  </main>
+
+  <script src="app.js"></script>
+</body>
+</html>
